@@ -88,8 +88,13 @@ body {
 
 #agendamento {
     display: flex;
+    align-items: center;
     justify-content: center;
-    height: 600px;
+    height: 500px;
+    padding-bottom: 30px
+}
+.agendamento-consulta {
+    margin-bottom: 10px;
 }
 
 .agendamento-consulta input,
@@ -98,7 +103,7 @@ body {
 .agendamento-consulta h2 {
     display: block;
     margin-bottom: 10px;
-    height: 50px;
+    height: 60px;
     width: 700px;
     resize: none;
     padding: 0;
@@ -134,3 +139,111 @@ body {
 .agendamento-consulta button:hover {
     background-color: #69ce91;
 }
+
+#medicos {
+    background-color: #23a455;
+    padding-top: 30px;
+    padding-bottom:50px;
+    width: 100%;
+}
+
+#medicos>h2 {
+    color: #fff;
+    text-align: center;
+}
+
+#nossos-medicos {
+    display: flex;
+    align-items: center;;
+    justify-content: space-between;
+}
+
+.foto-medico img {
+    border-radius: 40px;
+    height: 250px;
+    margin-left: 50px;
+}
+
+.nome-e-especialidade h2,
+.nome-e-especialidade h3,
+.medico-descricao {
+    color: #fff;
+    margin-right: 50px;
+    margin-left: 85px;
+    text-align: left;
+}
+
+#convenios {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#convenios h2 {
+    text-align: center;
+}
+
+.imagens-convenios {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+}
+
+.imagens-convenios img {
+    height: 70px;
+    margin-right: 20px;
+}
+
+footer {
+    background-color: #23a455;
+    color: #fff;
+    margin: 0;
+    padding-bottom: 10px;
+    width: auto;
+}
+
+.contact-methods {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 10% 20px 10%;
+}
+
+.contact-methods h3,
+.contact-methods h4,
+.contact-telephone a,
+.contact-email a,
+.copyright h4 {
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: normal;
+}
+
+.contact-telephone a:hover,
+.contact-email a:hover {
+    color: #69ce91;
+}
+
+.redes-sociais {
+    padding-top: 10px;
+}
+
+.redes-sociais ul li {
+    display: inline-block;
+    text-align: center;
+    list-style-type: none;
+    margin-left: 15%;
+}
+
+.redes-sociais svg:hover{
+    fill: #69ce91;
+}
+
+.copyright {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Página 'trabalhe conosco' */
