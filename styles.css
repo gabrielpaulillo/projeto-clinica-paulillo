@@ -38,12 +38,12 @@ body {
 }
 
 #local-e-funcionamento {
-    background-color: #23a455;
-    background-image: linear-gradient(to right, rgba(35,164,85, 0.2), rgba(35,164,85, 1.0)),
+    background-image: linear-gradient(to right, rgba(35,164,85, 0), rgba(35,164,85, 1)),
     url("./images/clinica-Paulillo-768x525.jpg");
-    height: 600px;
-    background-size: cover;
+    background-color: rgba(35,164,85, 0.5);
+    background-size: contain;
     background-repeat: no-repeat;
+    height: 600px;
     padding: 20px;
     width: 100%;
     margin-bottom: 40px;
@@ -187,12 +187,11 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 50px;
-
 }
 
 .imagens-convenios img {
     height: 70px;
-    margin-right: 20px;
+    margin-right: 30px;
 }
 
 footer {
@@ -203,15 +202,15 @@ footer {
     width: auto;
 }
 
-.contact-methods {
+#contact-methods {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 0 10% 20px 10%;
 }
 
-.contact-methods h3,
-.contact-methods h4,
+#contact-methods h3,
+#contact-methods h4,
 .contact-telephone a,
 .contact-email a,
 .copyright h4 {
@@ -245,5 +244,3 @@ footer {
     margin: 0;
     padding: 0;
 }
-
-/* Página 'trabalhe conosco' */
